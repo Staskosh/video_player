@@ -1,0 +1,27 @@
+.video-player {
+width: 800px;
+height: 600px;
+box-shadow: 0 0 15px rgba(0,0,0,3);
+}
+.video-player .screen {
+width: 100%;
+height: 100%
+}
+.video-player .bottom-controls {
+background-color: black;
+}
+.video-player .bottom-controls .play-button .pause-button {
+border: none;
+cursor: pointer;
+color: white;
+background-color: transparent;
+}
+.video-player .viewing-panel {
+color: white;
+}
+.video-player .progress {
+background-color: grey;
+}
+.video-player .progress .progress-slider {
+background-color: red;
+}
