@@ -9,9 +9,34 @@ box-shadow: 0 0 15px rgba(0,0,0,3);
 flex: 1 2 100px;
 }
 .video-player .bottom-controls {
+font-size: 20px;
 background-color: black;
+
 }
-.video-player .bottom-controls .play-button .pause-button .volume-up-button .volume-off-button {
+.video-player .bottom-controls .play-button {
+font-size: 20px;
+border: none;
+cursor: pointer;
+color: white;
+background-color: transparent;
+}
+.video-player .bottom-controls .pause-button {
+font-size: 20px;
+border: none;
+cursor: pointer;
+color: white;
+background-color: transparent;
+}
+
+.video-player .bottom-controls .volume-up-button {
+font-size: 20px;
+border: none;
+cursor: pointer;
+color: white;
+background-color: transparent;
+}
+.video-player .bottom-controls .volume-off-button {
+font-size: 20px;
 border: none;
 cursor: pointer;
 color: white;
