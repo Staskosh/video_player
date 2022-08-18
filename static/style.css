@@ -10,42 +10,11 @@ flex: 1 2 100px;
 }
 .video-player .bottom-controls {
 display: flex;
+align-items: center;
 background-color: black;
 
 }
-.video-player .bottom-controls .play-button {
-font-size: 20px;
-padding: 0px 4px 0px 4px;
-width: 30px;
-height: 30px;
-border: none;
-cursor: pointer;
-color: white;
-background-color: transparent;
-}
-.video-player .bottom-controls .pause-button {
-padding: 0px 4px 0px 4px;
-font-size: 20px;
-width: 30px;
-height: 30px;
-border: none;
-cursor: pointer;
-color: white;
-background-color: transparent;
-}
-
-.video-player .bottom-controls .volume-up-button {
-padding: 0px 4px 0px 4px;
-font-size: 20px;
-width: 30px;
-height: 30px;
-border: none;
-cursor: pointer;
-color: white;
-background-color: transparent;
-}
-.video-player .bottom-controls .volume-off-button {
-padding: 0px 4px 0px 4px;
+.video-player .bottom-controls .control-button {
 font-size: 20px;
 width: 30px;
 height: 30px;
@@ -58,22 +27,15 @@ background-color: transparent;
 .video-player .bottom-controls .buttons-space {
 flex-grow: 6;
 }
-.video-player .bottom-controls .fullscreen-button {
-padding: 0px 4px 0px 4px;
-font-size: 20px;
-width: 30px;
-height: 30px;
-border: none;
-cursor: pointer;
-color: white;
-background-color: transparent;
-}
+
 .video-player .viewing-panel {
 color: white;
 }
+
 .video-player .progress {
 background-color: grey;
 }
+
 .video-player .progress .progress-slider {
 background-color: red;
 }
